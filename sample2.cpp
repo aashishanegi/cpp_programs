@@ -2,10 +2,10 @@
 using namespace std;
 int main()
 {
-    int a;
+    int num;
     cout<<"Enter a number";
-    cin>>a;
-    int square=a*a;
+    cin>>num;
+    int square=num*num;
     cout<< "Square is:" <<square;
     return 0;
 }
