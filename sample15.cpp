@@ -18,5 +18,11 @@ int main()
         cout<<v[i]<<" ";
     }
     cout<<endl;
+    // for each element
+    for(int ele:v)
+    {
+        cout<<ele<<" ";
+    }
+    cout<<endl;
     return 0;
 }
