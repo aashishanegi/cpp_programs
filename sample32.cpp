@@ -1,4 +1,4 @@
-//count all the digits in a number
+//sum of all the digits in a number
 #include <iostream>
 using namespace std;
 int main()
