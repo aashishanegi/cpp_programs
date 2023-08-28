@@ -14,7 +14,7 @@ void spiral(vector<vector<int>>&v)
         if(direction==0)
         {
             //left to right
-            for(int i=0;i<=right;i++)
+            for(int i=left;i<=right;i++)
             {
                 cout<<v[top][i]<<" ";
             }
@@ -41,7 +41,7 @@ void spiral(vector<vector<int>>&v)
         if(direction==3)
         {
             //bottom to top
-            for(int i=bottom;i>=right;i--)
+            for(int i=bottom;i>=top;i--)
             {
                 cout<<v[i][left]<<" ";
             }
