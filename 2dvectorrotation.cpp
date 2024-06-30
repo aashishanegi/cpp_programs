@@ -37,8 +37,6 @@ int main()
             cin>>vec[i][j];
         }
     }
-    /*int res=maxones(vec);
-    cout<<"The row with max ones: "<<res;*/
     rotatedvector(vec);
     cout<<endl<<"The new vector is: "<<endl;
     for(int i=0;i<n;i++)
