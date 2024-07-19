@@ -9,8 +9,6 @@ void print_patt(int row)
 	// Initializing count to 1.
 	int count = 1;
 
-	// The outer loop maintains
-	// the number of rows.
 	for (int i = 1; i <= row; i++)
 	{
 		// The inner loop maintains the
