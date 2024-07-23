@@ -6,7 +6,6 @@ using namespace std;
 void rotatedvector(vector<vector<int>> &v)
 {
     int n=v.size();
-    //transpose
     for(int i=0;i<n;i++)
     {
         for(int j=0;j<i;j++)
