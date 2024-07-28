@@ -1,4 +1,5 @@
-//find unique element in array with duplicate values
+
+
 #include <iostream>
 using namespace std;
 int main()
