@@ -13,7 +13,6 @@ void rotatedvector(vector<vector<int>> &v)
             swap(v[i][j],v[j][i]);
         }
     }
-    //reverse each row
     for(int i=0;i<n;i++)
     {
         reverse(v[i].begin(),v[i].end());
